@@ -1,13 +1,30 @@
-:root {
-  --color-main: #333;
+* {
+  font-size: 100%;
+  font-family: Segoe UI;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  --background-color: rgb(17, 22, 17);
+  text-align: center;
+  width: 100%;
 }
 
-body {
-  color: var(--color-main);
+.product {
+  text-align: center;
+  width: auto;
+  margin: 5px;
+  border: thin solid #ddd;
+  padding: 10px;
+
+}
+
+button { 
+  color:#050; 
+  margin: 5px;
+  background-color:#fed; 
+  border:1px solid; 
+  border-color: #696 #363 #363 #696; 
 }
